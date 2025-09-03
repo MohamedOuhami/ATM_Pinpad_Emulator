@@ -1,0 +1,9 @@
+/home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/build/Desktop-Debug/CMakeFiles/ATM_Pinpad_Emulator.dir
+/home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/build/Desktop-Debug/CMakeFiles/install.dir
+/home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/build/Desktop-Debug/CMakeFiles/ATM_Pinpad_Emulator_autogen_timestamp_deps.dir
+/home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/build/Desktop-Debug/CMakeFiles/ATM_Pinpad_Emulator_autogen.dir
