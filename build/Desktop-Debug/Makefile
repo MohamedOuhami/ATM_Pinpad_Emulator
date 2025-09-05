@@ -224,6 +224,54 @@ ATM_Pinpad_Emulator_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM_Pinpad_Emulator.dir/build.make CMakeFiles/ATM_Pinpad_Emulator.dir/ATM_Pinpad_Emulator_autogen/mocs_compilation.cpp.s
 .PHONY : ATM_Pinpad_Emulator_autogen/mocs_compilation.cpp.s
 
+encryptor.o: encryptor.cpp.o
+.PHONY : encryptor.o
+
+# target to build an object file
+encryptor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM_Pinpad_Emulator.dir/build.make CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.o
+.PHONY : encryptor.cpp.o
+
+encryptor.i: encryptor.cpp.i
+.PHONY : encryptor.i
+
+# target to preprocess a source file
+encryptor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM_Pinpad_Emulator.dir/build.make CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.i
+.PHONY : encryptor.cpp.i
+
+encryptor.s: encryptor.cpp.s
+.PHONY : encryptor.s
+
+# target to generate assembly for a file
+encryptor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM_Pinpad_Emulator.dir/build.make CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.s
+.PHONY : encryptor.cpp.s
+
+eppcontroller.o: eppcontroller.cpp.o
+.PHONY : eppcontroller.o
+
+# target to build an object file
+eppcontroller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM_Pinpad_Emulator.dir/build.make CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.o
+.PHONY : eppcontroller.cpp.o
+
+eppcontroller.i: eppcontroller.cpp.i
+.PHONY : eppcontroller.i
+
+# target to preprocess a source file
+eppcontroller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM_Pinpad_Emulator.dir/build.make CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.i
+.PHONY : eppcontroller.cpp.i
+
+eppcontroller.s: eppcontroller.cpp.s
+.PHONY : eppcontroller.s
+
+# target to generate assembly for a file
+eppcontroller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ATM_Pinpad_Emulator.dir/build.make CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.s
+.PHONY : eppcontroller.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -290,6 +338,12 @@ help:
 	@echo "... ATM_Pinpad_Emulator_autogen/mocs_compilation.o"
 	@echo "... ATM_Pinpad_Emulator_autogen/mocs_compilation.i"
 	@echo "... ATM_Pinpad_Emulator_autogen/mocs_compilation.s"
+	@echo "... encryptor.o"
+	@echo "... encryptor.i"
+	@echo "... encryptor.s"
+	@echo "... eppcontroller.o"
+	@echo "... eppcontroller.i"
+	@echo "... eppcontroller.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

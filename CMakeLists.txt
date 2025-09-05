@@ -9,6 +9,7 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+find_package(OpenSSL REQUIRED)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
@@ -38,11 +39,14 @@ else()
     else()
         add_executable(ATM_Pinpad_Emulator
             ${PROJECT_SOURCES}
+            eppcontroller.h eppcontroller.cpp
+            encryptor.h encryptor.cpp
         )
     endif()
 endif()
 
 target_link_libraries(ATM_Pinpad_Emulator PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(ATM_Pinpad_Emulator PRIVATE OpenSSL::SSL OpenSSL::Crypto)
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an

@@ -121,11 +121,41 @@ CMakeFiles/ATM_Pinpad_Emulator.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ATM_Pinpad_Emulator.dir/mainwindow.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/mainwindow.cpp -o CMakeFiles/ATM_Pinpad_Emulator.dir/mainwindow.cpp.s
 
+CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.o: CMakeFiles/ATM_Pinpad_Emulator.dir/flags.make
+CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.o: /home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/eppcontroller.cpp
+CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.o: CMakeFiles/ATM_Pinpad_Emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.o -MF CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.o.d -o CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.o -c /home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/eppcontroller.cpp
+
+CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/eppcontroller.cpp > CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.i
+
+CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/eppcontroller.cpp -o CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.s
+
+CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.o: CMakeFiles/ATM_Pinpad_Emulator.dir/flags.make
+CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.o: /home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/encryptor.cpp
+CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.o: CMakeFiles/ATM_Pinpad_Emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.o -MF CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.o.d -o CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.o -c /home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/encryptor.cpp
+
+CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/encryptor.cpp > CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.i
+
+CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/encryptor.cpp -o CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.s
+
 # Object files for target ATM_Pinpad_Emulator
 ATM_Pinpad_Emulator_OBJECTS = \
 "CMakeFiles/ATM_Pinpad_Emulator.dir/ATM_Pinpad_Emulator_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/ATM_Pinpad_Emulator.dir/main.cpp.o" \
-"CMakeFiles/ATM_Pinpad_Emulator.dir/mainwindow.cpp.o"
+"CMakeFiles/ATM_Pinpad_Emulator.dir/mainwindow.cpp.o" \
+"CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.o" \
+"CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.o"
 
 # External object files for target ATM_Pinpad_Emulator
 ATM_Pinpad_Emulator_EXTERNAL_OBJECTS =
@@ -133,13 +163,17 @@ ATM_Pinpad_Emulator_EXTERNAL_OBJECTS =
 ATM_Pinpad_Emulator: CMakeFiles/ATM_Pinpad_Emulator.dir/ATM_Pinpad_Emulator_autogen/mocs_compilation.cpp.o
 ATM_Pinpad_Emulator: CMakeFiles/ATM_Pinpad_Emulator.dir/main.cpp.o
 ATM_Pinpad_Emulator: CMakeFiles/ATM_Pinpad_Emulator.dir/mainwindow.cpp.o
+ATM_Pinpad_Emulator: CMakeFiles/ATM_Pinpad_Emulator.dir/eppcontroller.cpp.o
+ATM_Pinpad_Emulator: CMakeFiles/ATM_Pinpad_Emulator.dir/encryptor.cpp.o
 ATM_Pinpad_Emulator: CMakeFiles/ATM_Pinpad_Emulator.dir/build.make
 ATM_Pinpad_Emulator: CMakeFiles/ATM_Pinpad_Emulator.dir/compiler_depend.ts
 ATM_Pinpad_Emulator: /usr/lib/libQt5Widgets.so.5.15.17
+ATM_Pinpad_Emulator: /usr/lib/libssl.so
+ATM_Pinpad_Emulator: /usr/lib/libcrypto.so
 ATM_Pinpad_Emulator: /usr/lib/libQt5Gui.so.5.15.17
 ATM_Pinpad_Emulator: /usr/lib/libQt5Core.so.5.15.17
 ATM_Pinpad_Emulator: CMakeFiles/ATM_Pinpad_Emulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ATM_Pinpad_Emulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/v01d/Documents/Programming/PersonalProjects/ATM_Pinpad_Emulator/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ATM_Pinpad_Emulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ATM_Pinpad_Emulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
